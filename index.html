@@ -341,12 +341,14 @@
                         <p>Monterrey</p>
                     </div>
                 </div>
-                <div class="col">
-                    <input type="text" placeholder="Nombre...">
-                    <input type="text" placeholder="Correo...">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <input type="submit" value="Enviar" class="btn">
+                <form id="contactoMsg">
+                      <div class="col">
+                    <input type="text" id="nombre" placeholder="Nombre..." required>
+                    <input type="text" id="puesto" placeholder="Puesto..." required>
+                    <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar a WhatsApp" class="btn">
                 </div>
+                </form>
             </div>
         </div>
     </section>
