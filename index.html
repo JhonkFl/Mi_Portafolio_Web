@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi Portafolio Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body  onload="gmail()">
+<!-- Menu Encabezado-->
+    <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Soft-JK</a>
+        </div>
+        <nav id="nav" >
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">Sobre Mí</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">Trayectoria</a></li>
+                <li><a href="#proyectos" onclick="seleccionar()">Proyectos</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    </div>
+
+    <!-- Secion    Inicio -->
+    <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="img/perfil.jpg" alt="">
+        </div>
+        <h1>Mario Hernández.</h1>
+        <h2>Desarrollador de Software</h2>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/mario-hern%C3%A1ndez-23198a31b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/JhonkFl"><i class="fa-brands fa-github"></i></a>
+            <a href="https://play.google.com/store/apps/developer?id=Soft-jk"><i class="fa-brands fa-google-play"></i></a>
+            <a href="" id="gmail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Secion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Mario Hernández</span> un apasionado de la programación con un interés constante en aprender y mejorar mis habilidades en el desarrollo de software. Me emociona crear aplicaciones móviles innovadoras.
+             Me apasiona la idea de crear soluciones que puedan impactar positivamente en la vida de las personas y estoy emocionado de seguir aprendiendo y creciendo en este campo.
+            Estoy emocionado de conectarme con otros desarrolladores y aprender de sus experiencias y conocimientos. </p>
+            
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Edad</strong>
+                            24
+                        </li>
+                        <li>
+                            <strong>Ciudad</strong>
+                            Monterrey
+                        </li>
+                        <li>
+                            <strong>Municipio</strong>
+                            Cíenega de Flores
+                        </li>
+                        <li>
+                            <strong>Interés</strong>
+                            Desarrollado de Software
+                        </li>
+                        <li>
+                            <strong>Educación</strong>
+                            Ingeniería en Sistemas Computacionales
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Secion Tecnologias-->
+                <div class="col">
+                    <h3>Tecnologias</h3>
+                    <div class="contenedor-tecnologias">
+                        <div class="tecnologias">
+                             <img src="img/java.png" alt="">
+                            <span>Java</span>
+                        </div>
+                        <div class="tecnologias">
+                            <img src="img/firebase.png" alt="">
+                            <span>Firebase</span>
+                        </div>
+                        <div class="tecnologias">
+                            <img src="img/html.png" alt="">
+                            <span>HTML</span>
+                        </div>
+                        <div class="tecnologias">
+                             <img src="img/css.png" alt="">
+                            <span>CSS</span>
+                        </div>
+                        <div class="tecnologias">
+                            <img src="img/javascript.png" alt="">
+                            <span>JavaSrcip</span>
+                        </div>
+                        <div class="tecnologias">
+                            <img src="img/android.png" alt="">
+                            <span>Android</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="documento/cv_mario_hernandez_hernandez.pdf" download>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+   
+      <!-- seccion curriculom o Trayectoria -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Trayectoria</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería en Sistemas Computacionales</h4>
+                        <span class="casa">Instituto Tecnológico Superior de Chicontepec</span>
+                        <span class="fecha">2019 - 2024</span>
+                        <p>Estudié en el ITSCHI, una institución académica donde tuve la oportunidad de desarrollar mis habilidades y conocimientos en Desarrollo de Software. 
+                            Durante mi tiempo en la universidad, me sumergí en un entorno de aprendizaje dinámico y diverso, rodeado de profesores apasionados y compañeros motivados.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollado de software</h4>
+                        <span class="casa">Aprendizaje Autónomo</span>
+                        <span class="fecha">2024 - Actualmente</span>
+                        <p>Soy un apasionado por la tecnología y el desarrollo de software. Me esfuerzo por mejorar continuamente mis habilidades y conocimientos a través del autoestudio y la práctica.
+                             Estoy emocionado de explorar nuevas tecnologías y herramientas, y estoy dispuesto a aprender y adaptarme a los cambios en el campo. Mi objetivo es seguir creciendo y desarrollando mis habilidades
+                             para convertirme en un profesional más capacitado y versátil.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Desarrollo de Aprendizaje</h3>
+                    <div class="item der">
+                        <h4>Q-APP ( WaitApp )</h4>
+                        <span class="casa">Sala de Espera Virtual :  2024</span>
+                        <span class="fecha"></span>
+                        <p>Q-App renombrado como: WaitApp es una aplicación móvil diseñada para mejorar la experiencia de los clientes en cualquier negocio que tenga filas o tiempos de espera como: </p>
+                        <ul>
+                            <li>Restaurantes y cafeterías</li>
+                            <li>Bancos e Instituciones</li>
+                            <li>Estéticas y Barberías</li>
+                            <li>Tiendas y Consultorios</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Uni-Search</h4>
+                        <span class="casa">Buscador de Universidades: 2025</span>
+                        <span class="fecha"></span>
+                        <p>Es una aplicación móvil innovadora diseñada para ayudar a los estudiantes de preparatoria a encontrar la universidad perfecta para ellos. El proyecto se divide en dos secciones principales:</p>
+                        <ul>
+                            <li>Uni-Search .  (dirigida a Estudiantes)</li>
+                            <li>Mi Universidad . (dirigida a Universidades)</li>
+                        </ul>
+                        <p>Aunque Uni-Search se divide en dos secciones, es un solo proyecto que busca conectar a los estudiantes con las universidades de manera eficiente y efectiva.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Sección de Tecnologias-->
+     <section id="proyectos" class="proyectos">
+        <h2>Proyectos</h2>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+
+                    <div class="item">
+                        <img src="img/proyect1.png" alt="">
+                        <div class="info">
+                           <h3>Tecnologias y Servicios Utilizados</h3>
+                            <span>
+                                <div class="icono color2">
+                                    <div class="circulo">
+                                        <i class="fa-brands fa-java"></i>
+                                    </div>
+                                </div>
+                                Java
+                            </span>
+                            <span>
+                                <div class="icono color1">
+                                    <div class="circulo">
+                                        <i class="fa-solid fa-fire"></i>
+                                    </div>
+                                </div>
+                                Firebase
+                            </span>
+                            <span>
+                                <div class="icono color5">
+                                    <div class="circulo">
+                                        <i class="fa-brands fa-android"></i>
+                                    </div>
+                                </div>
+                                Android
+                            </span>
+                        </div>
+                    </div>
+                    <h3>Q-App ( WaitApp )</h3>
+                    <p>La Sala de Espera Virtual es una solución innovadora para cualquier negocio que busque mejorar la experiencia del cliente y optimizar la gestión de tiempos de espera.</p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+
+                    <div class="item">
+                        <img src="img/proyect2.png" alt="">
+                        <div class="info">
+                            <h3>Tecnologias y Servicios Utilizados</h3>
+                            <span>
+                                <div class="icono color2">
+                                    <div class="circulo">
+                                        <i class="fa-brands fa-java"></i>
+                                    </div>
+                                </div>
+                                Java
+                            </span>
+                            <span>
+                                <div class="icono color1">
+                                    <div class="circulo">
+                                       <i class="fa-solid fa-fire"></i>
+                                    </div>
+                                </div>
+                                Firebase
+                            </span>
+                            <span>
+                                <div class="icono color6">
+                                    <div class="circulo">
+                                       <i class="fa-solid fa-rectangle-ad"></i>
+                                    </div>
+                                </div>
+                                AdMob
+                            </span>
+                        </div>
+                    </div>
+                    <h3>Uni-Search</h3>
+                    <p>Buscador de Universidades es una herramienta valiosa para cualquier estudiante que busca encontrar la universidad perfecta para ello. Así también como conocer su oferta académica,
+                        redes sociales y toda la información necesaria </p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+
+            <div class="col">
+                 <div class="card">
+
+                    <div class="item">
+                        <img src="img/proyect3.jpg" alt="">
+                        <div class="info">
+                            <h3>Tecnologias y Servicios Utilizados</h3>
+                            <span>
+                                <div class="icono color2">
+                                    <div class="circulo">
+                                        <i class="fa-brands fa-java"></i>
+                                    </div>
+                                </div>
+                                Java
+                            </span>
+                            <span>
+                                <div class="icono color1">
+                                    <div class="circulo">
+                                        <i class="fa-solid fa-fire"></i>
+                                    </div>
+                                </div>
+                                Firebase
+                            </span>
+                            <span>
+                                <div class="icono color5">
+                                    <div class="circulo">
+                                        <i class="fa-solid fa-map-location-dot"></i>
+                                    </div>
+                                </div>
+                                Google Maps
+                            </span>
+                        </div>
+                    </div>
+
+                    <h3>Mi Universidad</h3>
+                    <p>Promoción de Universidades es una aplicación móvil valiosa para cualquier Univeridad o Intitución Educativa que desea destacarse y atraer a los mejores estudiantes.</p>
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>PlayStore:</h3>
+                        <p>Soft-JK</p>
+                    </div>
+                    <div class="info">
+                        <h3>GitHub:</h3>
+                        <p>JhonkFL</p>
+                    </div>
+                    <div class="info">
+                        <h3>País:</h3>
+                        <p>México</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Monterrey</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Creado por Jhonk FL - 2025 - Contáctame</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
